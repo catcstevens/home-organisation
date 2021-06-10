@@ -2,10 +2,10 @@ import React from 'react';
 
 function Todo () {
     return (
-        <div>
+        <div className='p-4 text-2xl text-white border-b-2'>
             <input 
             type='checkbox' />
-            <p> Placeholder text</p>
+            <span> Placeholder text </span>
         </div>
     )
 }

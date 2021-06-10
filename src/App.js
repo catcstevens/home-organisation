@@ -3,13 +3,15 @@ import Todo from './Todo';
 
 function App() {
   return (
-    <div>
+    <div >
       <h1 className="text-8xl text-white flex justify-center p-10 ">StreamLiveing</h1>
-    <Todo />
-    <Todo />
-    <Todo />
-    <Todo />
-    </div>
+      <div className='p-8 box-border w-2/5 border-4 border-white rounded-medium shadow-md bg-blue-900'>
+        <Todo />
+        <Todo />
+        <Todo />
+        <Todo />
+      </div>
+      </div>
   );
 }
 
