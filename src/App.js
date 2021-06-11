@@ -1,5 +1,6 @@
 import './App.css';
 import Todo from './Todo';
+import TodoInput from './TodoInput'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Todo />
         <Todo />
         <Todo />
+        <TodoInput />
       </div>
       </div>
   );
