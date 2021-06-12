@@ -1,5 +1,6 @@
 import './App.css';
 import Todo from './Todo';
+import TodoInput from './TodoInput'
 
 function App() {
   return (
@@ -7,9 +8,7 @@ function App() {
       <h1 className="text-8xl text-white flex justify-center p-10 ">StreamLiveing</h1>
       <div className='p-8 box-border w-2/5 border-8 border-white rounded-2xl shadow-2xl bg-blue-900'>
         <Todo />
-        <Todo />
-        <Todo />
-        <Todo />
+        <TodoInput />
       </div>
       </div>
   );
